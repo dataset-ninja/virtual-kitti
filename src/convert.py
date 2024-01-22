@@ -83,7 +83,6 @@ def convert_and_upload_supervisely_project(
     api: sly.Api, workspace_id: int, project_name: str
 ) -> sly.ProjectInfo:
     ### Function should read local dataset and upload it to Supervisely project, then return project info.###
-    raise NotImplementedError("The converter should be implemented manually.")
     images_path = "/home/alex/DATASETS/TODO/Virtual KITTI/vkitti_1.3.1_rgb"
     flow_path = "/home/alex/DATASETS/TODO/Virtual KITTI/vkitti_1.3.1_flowgt"
     depth_path = "/home/alex/DATASETS/TODO/Virtual KITTI/vkitti_1.3.1_depthgt"
@@ -187,24 +186,24 @@ def convert_and_upload_supervisely_project(
     # dont_care = sly.ObjClass("dont care", sly.AnyGeometry)
 
     name_to_class = {
-        "Building": building,
-        "Car": car,
-        "GuardRail": guardrail,
-        "Misc": misc,
-        "Pole": pole,
-        "Road": road,
-        "Sky": sky,
-        "Terrain": terrain,
-        "TrafficLight": traffic_light,
-        "TrafficSign": traffic_sign,
-        "Tree": tree,
-        "Truck": truck,
-        "Van": van,
-        "Vegetation": vegetation,
+        "building": building,
+        "car": car,
+        "guard rail": guardrail,
+        "misc": misc,
+        "pole": pole,
+        "road": road,
+        "sky": sky,
+        "terrain": terrain,
+        "traffic light": traffic_light,
+        "traffic sign": traffic_sign,
+        "tree": tree,
+        "truck": truck,
+        "van": van,
+        "vegetation": vegetation,
         # "DontCare": dont_care,
     }
 
-    subfolder_meta = sly.TagMeta("subfolder", sly.TagValueType.ANY_STRING)
+    subfolder_meta = sly.TagMeta("rotation", sly.TagValueType.ANY_STRING)
     tag_id = sly.TagMeta(group_tag_name, sly.TagValueType.ANY_STRING)
 
     model_meta = sly.TagMeta("model", sly.TagValueType.ANY_STRING)
