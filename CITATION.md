@@ -1,11 +1,11 @@
 If you make use of the Virtual KITTI data, please cite the following reference:
 
 ``` bibtex 
-@dataset{Virtual KITTI,
-  author={Adrien Gaidon and Qiao Wang and Yohann Cabon and Eleonora Vig},
-  title={Virtual KITTI Dataset},
-  year={2016},
-  url={https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/}
+@inproceedings{Gaidon:Virtual:CVPR2016,
+author = {Gaidon, A and Wang, Q and Cabon, Y and Vig, E},
+title = {Virtual Worlds as Proxy for Multi-Object Tracking Analysis},
+booktitle = {CVPR},
+year = {2016}
 }
 ```
 
