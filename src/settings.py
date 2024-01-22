@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Virtual KITTI"
 PROJECT_NAME_FULL: str = "Virtual KITTI Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -101,7 +101,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
-    "__PRETEXT__": "Additionally, images are grouped by ***im id***. Also every image contains information about its ***sequence***, ***subfolder***. Explore it in supervisely labeling tool. Images labels have ***color***, ***model***, ***occluded*** and ***occupancy ratio***"
+    "__PRETEXT__": "Additionally, images are grouped by ***im id***. Also every image contains information about its ***sequence***, ***rotation***. Images labels have ***color***, ***model***, ***occluded*** and ***occupancy ratio***. Explore it in supervisely labeling tool"
 }
 TAGS: Optional[List[str]] = None
 
