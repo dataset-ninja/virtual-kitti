@@ -1,6 +1,6 @@
 Dataset **Virtual KITTI** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/8/W/sY/b1dIiQOGwhXfw8sT20TYbVHLKJAeZ4KoAEPZoLts3m1KItZHMgXSXcxA3C5SJwjRXvaMww2OLgefiVhCDt9yaGo1Nt7mCNpZjqphI5sAd9gjiLAxKhrVw8xgZoZU.tar)
+ [Download](https://www.dropbox.com/scl/fi/5393pa1re7879ji80gdi2/virtual-kitti-DatasetNinja.tar?rlkey=o1k7okxdf5u8w54ov6nx83dp2&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
