@@ -17,9 +17,9 @@ Make sure not to overlook the [python code example](https://developer.supervisel
 
 The data in original format can be downloaded here:
 
-- [vkitti_1.3.1_depthgt.tar](https://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_depthgt.tar)
-- [vkitti_1.3.1_extrinsicsgt.tar.gz](https://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_extrinsicsgt.tar.gz)
-- [vkitti_1.3.1_flowgt.tar](https://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_flowgt.tar)
-- [vkitti_1.3.1_motgt.tar.gz](https://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_motgt.tar.gz)
-- [vkitti_1.3.1_rgb.tar](https://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_rgb.tar)
-- [vkitti_1.3.1_scenegt.tar](https://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_scenegt.tar)
+- [vkitti_1.3.1_depthgt.tar](http://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_depthgt.tar)
+- [vkitti_1.3.1_extrinsicsgt.tar.gz](http://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_extrinsicsgt.tar.gz)
+- [vkitti_1.3.1_flowgt.tar](http://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_flowgt.tar)
+- [vkitti_1.3.1_motgt.tar.gz](http://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_motgt.tar.gz)
+- [vkitti_1.3.1_rgb.tar](http://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_rgb.tar)
+- [vkitti_1.3.1_scenegt.tar](http://download.europe.naverlabs.com/virtual-kitti-1.3.1/vkitti_1.3.1_scenegt.tar)
