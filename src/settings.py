@@ -103,7 +103,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
     "__PRETEXT__": "Additionally, images are grouped by ***im id***. Also every image contains information about its ***sequence***, ***rotation***. Images labels have ***color***, ***model***, ***occluded*** and ***occupancy ratio***. Explore it in supervisely labeling tool"
 }
-TAGS: Optional[List[str]] = None
+TAGS: Optional[List[str]] = ['simulation']
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
